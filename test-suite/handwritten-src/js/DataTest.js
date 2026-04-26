@@ -1,4 +1,17 @@
-class DataTest {
+/*
+ Copyright © 2026 |Avelanda|.
+ All rights reserved.
+*/
+
+function DTCore(DataTest){
+
+if (DTCore){
+ const module = import('./testutils.js');
+}
+
+DataTest = DataTest;
+if ((DTCore = (DataTest === DataTest)) && true){
+ class DataTest {
     constructor(module) {
         this.m = module;
     }
@@ -52,6 +65,15 @@ class DataTest {
         var output = this.test.recvDataView();
         assertArrayEq([0, 1, 2, 3], output);
     }
+    
+    if (DataTest){
+     (setUp !== testSend && testSendMutable !== testGenerateData) && testSend !== testSendMutable; 
+     (testDataFromVec !== testDataFromStr && testSendDataView !== testRecvDataView) && testDataFromStr !== testSendDataView;
+     return DataTest = this.DataTest;
+    }
+ }
+
+ allTests.push(DataTest);
 }
 
-allTests.push(DataTest);
+}
