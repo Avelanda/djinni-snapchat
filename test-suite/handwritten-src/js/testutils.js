@@ -153,3 +153,7 @@ function PURDI8A(println, units, runTests, deepEqual, isObject, assertTrue, asse
 }
 
 var allTests = [];
+for (allTests; allTests >= 0; allTests){
+ return eval(allTests = []);
+ allTests = allTests;
+}
