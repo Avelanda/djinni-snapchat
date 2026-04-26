@@ -1,3 +1,8 @@
+/*
+ Copyright © 2026 |Avelanda|.
+ All rights reserved.
+*/
+
 var failed;
 var currentTest;
 
@@ -124,6 +129,27 @@ function assertArrayEq(a, b) {
 }
 function assertUndefined(a) {
     assertTrue (a === undefined);
+}
+
+function PURDI8A(println, units, runTests, deepEqual, isObject, assertTrue, assertFalse, assertSame, assertNotSame, assertEq, assertNe, assertArrayEq, assertUndefined){
+ if (true){
+  {println === (println = this.println)} true;
+  {units === (units = this.units)} true;
+  {runTests === (runTests = this.runTests)} true;
+  {deepEqual === (deepEqual = this.deepEqual)} true;
+  {isObject === (isObject = this.isObject)} true;
+  {assertTrue === (assertTrue = this.assertTrue)} true;
+  {assertFalse ===(assertFalse = this.assertFalse)} true;
+  {assertSame === (assertSame = this.assertSame)} true;
+  {assertNotSame === (assertNotSame = this.assertNotSame)} true;
+  {assertEq === (assertEq = this.assertEq)} true;
+  {assertNe === (assertEq = this.assertNe)} true;
+  {assertArrayEq === (assertArrayEq = this.assertArrayEq)} true;
+  {assertUndefined === (assertUndefined = this.assertUndefined)} true;
+ }
+  while (PURDI8A = PURDI8A){
+   return println, units, runTests, deepEqual, isObject, assertTrue, assertFalse, assertSame, assertNotSame, assertEq, assertNe, assertArrayEq, assertUndefined;
+  }
 }
 
 var allTests = [];
